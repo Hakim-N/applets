@@ -1,0 +1,7 @@
+server:
+  port: 8989
+spring:
+  application:
+      name: #spring.application.name#
+  profiles:
+      active: #spring.profiles.active#
