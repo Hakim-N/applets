@@ -1,17 +1,17 @@
 spring:
   datasource:
-    name: 52ydwftest_db
+    name: rong_mu_user
     type: com.alibaba.druid.pool.DruidDataSource
     #druid
     druid:
-      name: 52ydwftest_db
+      name: rong_mu_user
       #中文p
       filters: statq
       driver-class-name: com.mysql.cj.jdbc.Driver
       #
-      url: jdbc:mysql://192.168.28.134:3306/face_server?generateSimpleParameterMetadata=true&rewriteBatchedStatements=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
-      username: service
-      password: servicedb!
+      url: jdbc:mysql://rm-2zeqb6p473149ntco125010gm.mysql.rds.aliyuncs.com:3306/rong_mu_user?generateSimpleParameterMetadata=true&rewriteBatchedStatements=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+      username: rong_mu_1
+      password: 1qaz2wsX
       #
       initial-size: 1
       min-idle: 1

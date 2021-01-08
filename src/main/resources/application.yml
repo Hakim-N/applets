@@ -5,3 +5,5 @@ spring:
       name: #spring.application.name#
   profiles:
       active: #spring.profiles.active#
+  banner:
+    location: banner.txt

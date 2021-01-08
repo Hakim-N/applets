@@ -12,7 +12,7 @@
     <artifactId>applets</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
-    <name>applets</name>
+    <name>applets-admin</name>
     <description>小程序</description>
 
     <properties>

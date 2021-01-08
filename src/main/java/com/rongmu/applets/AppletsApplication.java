@@ -2,11 +2,13 @@ package com.rongmu.applets;
 
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.Environment;
 
+import java.io.PrintStream;
 import java.net.InetAddress;
 
 @Slf4j
@@ -15,6 +17,8 @@ public class AppletsApplication {
 
     public static void main(String[] args) {
         SpringApplication application=new SpringApplication(AppletsApplication.class);
+        // 关闭横幅
+        //application.setBannerMode(Banner.Mode.OFF);
         ConfigurableApplicationContext context=application.run(args);
         Environment env=context.getEnvironment();
         try {
